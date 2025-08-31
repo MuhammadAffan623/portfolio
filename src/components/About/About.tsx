@@ -1,7 +1,8 @@
 import { Container } from "./styles";
-import ProfileImage from "../../assets/VinayakSingh.webp";
-import python from "../../assets/python.svg"
-import java from "../../assets/java.svg"
+// import ProfileImage from "../../assets/VinayakSingh.webp";
+import ProfileImage from "../../assets/profile.jpg";
+import python from "../../assets/python.svg";
+import java from "../../assets/java.svg";
 import wordpress from "../../assets/wordpress.svg";
 import shopify from "../../assets/shopify.svg";
 import htmlIcon from "../../assets/html-icon.svg";
@@ -23,42 +24,63 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
           <p>
-            Hi there! I'm Muhammad Affan, a passionate Software Engineer based in Karachi, Pakistan, with expertise in full-stack development, cloud services, and scalable software solutions
+            Hi there! I'm Muhammad Affan, a passionate Software Engineer based
+            in Karachi, Pakistan, with expertise in full-stack development,
+            cloud services, and scalable software solutions
           </p>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
+        <ScrollAnimation
+          animateIn="fadeInLeft"
+          delay={0.2 * 1000}
+          style={{ marginTop: "2rem", marginBottom: "2rem" }}
+        >
           <p>
-            I specialize in building responsive web applications, implementing robust backend services, and leveraging AWS cloud services for optimal performance and scalability.
+            I specialize in building responsive web applications, implementing
+            robust backend services, and leveraging AWS cloud services for
+            optimal performance and scalability.
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
           <p>
-            With experience in managing junior developers and leading development teams, I ensure seamless functionality and effective collaboration across all projects.
+            With experience in managing junior developers and leading
+            development teams, I ensure seamless functionality and effective
+            collaboration across all projects.
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={400}>
           <div className="education">
             <h3>Education:</h3>
-            <h4>Bachelor's in Computer Science</h4>
-            <p>University of Karachi | 2020 - 2024</p>
-            <h4>Intermediate</h4>
-            <p>Adamjee Govt. Science College | 2018 - 2020</p>
-            <h4>Matric</h4>
-            <p>IJK Schooling System | 2016 - 2018</p>
+            <div style={{ paddingTop: "10px" }}>
+              <h4>Bachelor's in Computer Science</h4>
+              <p>University of Karachi | 2020 - 2024</p>
+            </div>
+            <div style={{ paddingTop: "10px" }}>
+              <h4>Intermediate</h4>
+              <p>Adamjee Govt. Science College | 2018 - 2020</p>
+            </div>
+            <div style={{ paddingTop: "10px" }}>
+              <h4>Matric</h4>
+              <p>IJK Schooling System | 2016 - 2018</p>
+            </div>
           </div>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={550}>
           <div className="experience">
-             <h3>Experience:</h3>
-             <h4>Software Engineer</h4>
+            <h3>Experience:</h3>
+            <div style={{ paddingTop: "10px" }}></div>
+            <h4>Software Engineer</h4>
             <p>Software Orbits | September 2024 - Present</p>
             <p>Karachi, Pakistan</p>
-            <h4>Software Engineer</h4>
-            <p>Geeks Of Kolachi | October 2023 - August 2024</p>
-            <p>Karachi, Pakistan</p>
-            <h4>Software Engineer</h4>
-            <p>Concept Recall | May 2022 - September 2023</p>
-            <p>Karachi, Pakistan</p>
+            <div style={{ paddingTop: "10px" }}>
+              <h4>Software Engineer</h4>
+              <p>Geeks Of Kolachi | October 2023 - August 2024</p>
+              <p>Karachi, Pakistan</p>
+            </div>
+            <div style={{ paddingTop: "10px" }}>
+              <h4>Software Engineer</h4>
+              <p>Concept Recall | May 2022 - September 2023</p>
+              <p>Karachi, Pakistan</p>
+            </div>
           </div>
         </ScrollAnimation>
 
@@ -67,7 +89,7 @@ export function About() {
         </ScrollAnimation>
         <div className="hard-skills">
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.10 * 1000}>
+            <ScrollAnimation animateIn="fadeInUp" delay={0.1 * 1000}>
               <img src={python} alt="python" />
             </ScrollAnimation>
           </div>
@@ -117,7 +139,7 @@ export function About() {
             </ScrollAnimation>
           </div>
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.20 * 1000}>
+            <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
               <img src={boostrapIcon} alt="bootstrap" />
             </ScrollAnimation>
           </div>
@@ -129,5 +151,5 @@ export function About() {
         </ScrollAnimation>
       </div>
     </Container>
-  )
+  );
 }
