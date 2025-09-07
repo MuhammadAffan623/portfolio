@@ -13,12 +13,6 @@ export function Footer() {
         <span>www.muhammad</span>
         <span>affan.dev</span>
       </a>
-      <div>
-        <p>
-          This Website was made with <img src={reactIcon} alt="React" />
-          {/* <span>❤️</span> */}
-        </p>
-      </div>
       <div className="social-media">
         <a
           href="https://linkedin.com/in/muhammad-affan-10045521b/"
@@ -41,15 +35,15 @@ export function Footer() {
         >
           <img src={whatsapp} alt="Whatsapp" />
         </a>
-        <a
+        {/* <a
           href="https://t.me/MuhammadAffan623"
           target="_blank"
           rel="noreferrer"
         >
           <img src={telegram} alt="telegram" />
-        </a>
+        </a> */}
         <a
-          href="https://www.instagram.com/muhammadaffan.dev"
+          href="https://www.instagram.com/_affan_mohammad"
           target="_blank"
           rel="noreferrer"
         >
