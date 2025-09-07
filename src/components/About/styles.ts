@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.section`
   margin-top: 12rem;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1.5fr 1fr;
   gap: 2rem;
 
   .hard-skills{
@@ -49,7 +49,10 @@ export const Container = styled.section`
     text-align: center;
    img{
      margin-top: 2rem;
-     width: 75%;
+     width: 300px;
+     height: 300px;
+     object-fit: cover;
+     border-radius: 50%;
      filter: grayscale(0);
      transition: filter 0.5s;
      &:hover{
@@ -64,7 +67,10 @@ export const Container = styled.section`
       margin-top: 4rem;
       img{
         margin-top: 2rem;
-        width: 100%;
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+        border-radius: 50%;
         filter: grayscale(0);
         transition: filter 0.5s;
         &:hover{
@@ -85,7 +91,10 @@ export const Container = styled.section`
       max-width: 100%;
       img{
         margin-top: 2rem;
-        width: 100%;
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 50%;
         filter: grayscale(0);
         transition: filter 0.5s;
         &:hover{
