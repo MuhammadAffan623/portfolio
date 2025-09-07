@@ -9,7 +9,7 @@ import instagramIcon from '../../assets/instagram.svg'
 export function Footer() {
   return (
     <Container className="footer">
-      <a href="https://muhammadaffan.dev" className="logo">
+      <a href="https://portfolio-seven-kohl-54.vercel.app/" className="logo">
         <span>www.muhammad</span>
         <span>affan.dev</span>
       </a>
